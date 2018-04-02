@@ -7,7 +7,7 @@ public static void main(String[] args) {
        String data=null;
        String kdata=null;
        try{
-      Socket st=new Socket("192.168.1.106",6666);//向服务器发起连接,本机IP
+      Socket st=new Socket("34.209.118.28",2222);//向服务器发起连接,本机IP
       PrintWriter out=new PrintWriter(st.getOutputStream(),true);//创建一个向Socket中写文本行的流，自动刷新
       
       BufferedReader in=new BufferedReader(new InputStreamReader(st.getInputStream()));//创建一个从socket中读文本行的流
